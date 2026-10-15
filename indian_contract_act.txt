@@ -1,0 +1,53 @@
+INDIAN CONTRACT ACT, 1872
+
+SECTION 10 - WHAT AGREEMENTS ARE CONTRACTS
+An agreement becomes a contract when it satisfies the legal requirements of the Act, including lawful consideration and lawful object, and is not expressly declared void.
+
+SECTION 11 - WHO ARE COMPETENT TO CONTRACT
+A person must satisfy the legal requirements of competency to contract under the Act.
+
+SECTION 13 - CONSENT
+Two or more persons consent when they agree upon the same thing in the same sense.
+
+SECTION 14 - FREE CONSENT
+Consent is free when it is not caused by coercion, undue influence, fraud, misrepresentation, or mistake, subject to the Act.
+
+SECTION 15 - COERCION
+Coercion concerns acts or threats used to obtain consent, as defined by the Act.
+
+SECTION 16 - UNDUE INFLUENCE
+Undue influence concerns situations where one party is in a position to dominate the will of another and uses that position to obtain an unfair advantage.
+
+SECTION 17 - FRAUD
+Fraud covers intentional deception in relation to an agreement, as defined by the Act.
+
+SECTION 18 - MISREPRESENTATION
+Misrepresentation concerns certain false statements or conduct that cause another person to enter into an agreement.
+
+SECTION 19 - AGREEMENTS WITHOUT FREE CONSENT
+When consent is caused by coercion, fraud, or misrepresentation, the agreement may be affected in the manner provided by the Act.
+
+SECTION 23 - LAWFUL CONSIDERATION AND OBJECT
+The consideration and object of an agreement must satisfy the statutory requirements of lawfulness. Certain prohibited agreements may be void.
+
+SECTION 27 - AGREEMENT IN RESTRAINT OF TRADE
+Agreements restraining a person from exercising a lawful profession, trade, or business are addressed by this section, subject to statutory exceptions.
+
+SECTION 73 - COMPENSATION FOR LOSS OR DAMAGE CAUSED BY BREACH
+A party suffering from breach of contract may be entitled to compensation for loss or damage arising in the manner provided by the Act.
+
+SECTION 74 - COMPENSATION WHERE PENALTY IS STIPULATED
+Where a contract specifies a sum payable on breach or contains another stipulation by way of penalty, reasonable compensation may be available subject to the statutory requirements.
+
+SECTION 75 - PARTY RIGHTFULLY RESCINDING CONTRACT
+A party who rightfully rescinds a contract may be entitled to compensation in accordance with the Act.
+
+RAG INSTRUCTION
+Use these sections as reference information when analyzing legal documents.
+Do not automatically conclude that a clause is illegal or invalid.
+Explain the relevant section in simple language.
+If professional legal interpretation is required, recommend consulting a qualified lawyer.
+
+DISCLAIMER
+This knowledge base is for educational and informational purposes only.
+It is not a substitute for professional legal advice.
