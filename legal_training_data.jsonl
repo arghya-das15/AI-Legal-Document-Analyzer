@@ -1,0 +1,15 @@
+{"instruction":"Summarize the legal clause in simple language.","input":"The client shall pay Rs. 50,000 for the services provided under this agreement.","output":"The client must pay Rs. 50,000 for the services."}
+{"instruction":"Identify the type of legal clause.","input":"Either party may terminate this agreement by giving 30 days written notice.","output":"Clause Type: Termination Clause."}
+{"instruction":"Identify the financial risk in this clause.","input":"A penalty of Rs. 10,000 may apply in case of breach of the agreement.","output":"Risk: A financial penalty of Rs. 10,000 may apply if the agreement is breached."}
+{"instruction":"Classify the risk severity.","input":"A penalty of Rs. 10,000 may apply in case of breach of the agreement.","output":"Risk Severity: Medium."}
+{"instruction":"Simplify the legal sentence.","input":"The service provider shall deliver the work within 30 days from the effective date.","output":"The service provider must complete the work within 30 days."}
+{"instruction":"Identify the obligation.","input":"The parties shall maintain confidentiality of all information received during the agreement.","output":"Obligation: Both parties must keep the shared information confidential."}
+{"instruction":"Identify the legal clause.","input":"Any dispute arising under this agreement may be resolved through arbitration.","output":"Clause Type: Dispute Resolution / Arbitration Clause."}
+{"instruction":"Identify the parties in the agreement.","input":"This Service Agreement is between ABC Technologies Pvt. Ltd. and Rahul Sharma.","output":"Parties: ABC Technologies Pvt. Ltd. and Rahul Sharma."}
+{"instruction":"Identify the important date.","input":"The agreement is effective from 15 August 2026.","output":"Important Date: 15 August 2026."}
+{"instruction":"Identify the financial information.","input":"The client will pay Rs. 50,000 for the service.","output":"Financial Information: Payment of Rs. 50,000."}
+{"instruction":"Explain the clause in simple language.","input":"Either party may terminate this agreement with 30 days written notice.","output":"Either party can end the agreement by giving 30 days written notice."}
+{"instruction":"Identify the potential risk.","input":"The agreement imposes a penalty for breach of contractual obligations.","output":"Risk: A financial penalty may apply if contractual obligations are breached."}
+{"instruction":"Generate a recommendation based only on the clause.","input":"A penalty of Rs. 10,000 may apply for breach.","output":"Recommendation: Review the conditions under which the penalty applies and understand the financial impact."}
+{"instruction":"Identify the obligation of the service provider.","input":"The service provider shall deliver the work within 30 days.","output":"Obligation: The service provider must deliver the work within 30 days."}
+{"instruction":"Simplify the legal statement.","input":"The parties shall maintain confidentiality.","output":"Both parties must keep the information confidential."}
