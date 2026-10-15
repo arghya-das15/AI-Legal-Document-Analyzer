@@ -1,114 +1,207 @@
-# AI Legal Document Analyzer
+---
+base_model: HuggingFaceTB/SmolLM2-360M-Instruct
+library_name: peft
+pipeline_tag: text-generation
+tags:
+- base_model:adapter:HuggingFaceTB/SmolLM2-360M-Instruct
+- lora
+- transformers
+---
 
-An AI-powered application designed to simplify the understanding of Indian legal documents using Natural Language Processing and Machine Learning.
+# Model Card for Model ID
 
-## About the Project
+<!-- Provide a quick summary of what the model is/does. -->
 
-AI Legal Document Analyzer is an academic project developed to help users understand complex legal documents through simplified summaries, clause identification, and potential risk analysis.
 
-The application uses document-processing techniques and AI-based analysis to make legal information easier to understand.
 
-## Features
+## Model Details
 
-* **Document Processing:** Support for PDF, DOCX, and image-based documents, depending on the configured parsers.
-* **Legal Document Summarization:** Generate simplified summaries of legal content.
-* **Clause Identification:** Identify important clauses in documents.
-* **Risk Analysis:** Highlight potential risks and concerning terms.
-* **OCR Support:** Extract text from scanned documents when OCR is configured.
-* **Legal Reference Search:** Retrieve relevant legal information when the reference search system is configured.
-* **Interactive Interface:** Built with Streamlit.
+### Model Description
 
-## Technology Stack
+<!-- Provide a longer summary of what this model is. -->
 
-* Python
-* Streamlit
-* Natural Language Processing (NLP)
-* Machine Learning
-* OCR and document processing
-* Semantic search and vector retrieval, where configured
 
-## Project Structure
 
-```text
-AI-Legal-Document-Analyzer/
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── modules/
-├── models/
-├── assets/
-├── data/
-├── training_data/
-└── tests/
-```
+- **Developed by:** [More Information Needed]
+- **Funded by [optional]:** [More Information Needed]
+- **Shared by [optional]:** [More Information Needed]
+- **Model type:** [More Information Needed]
+- **Language(s) (NLP):** [More Information Needed]
+- **License:** [More Information Needed]
+- **Finetuned from model [optional]:** [More Information Needed]
 
-This is an illustrative structure. Update it to match the files actually included in the repository.
+### Model Sources [optional]
 
-## Installation and Setup
+<!-- Provide the basic links for the model. -->
 
-### 1. Clone the repository
+- **Repository:** [More Information Needed]
+- **Paper [optional]:** [More Information Needed]
+- **Demo [optional]:** [More Information Needed]
 
-```bash
-git clone https://github.com/arghya-das15/AI-Legal-Document-Analyzer.git
-```
+## Uses
 
-### 2. Navigate to the project directory
+<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
 
-```bash
-cd AI-Legal-Document-Analyzer
-```
+### Direct Use
 
-### 3. Create a virtual environment
+<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
 
-```bash
-python -m venv .venv
-```
+[More Information Needed]
 
-### 4. Activate the environment
+### Downstream Use [optional]
 
-**Windows:**
+<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
 
-```bash
-.venv\Scripts\activate
-```
+[More Information Needed]
 
-### 5. Install dependencies
+### Out-of-Scope Use
 
-```bash
-pip install -r requirements.txt
-```
+<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
 
-### 6. Run the application
+[More Information Needed]
 
-```bash
-streamlit run app.py
-```
+## Bias, Risks, and Limitations
 
-Ensure that the required model files, configuration, and dependencies are available before running the application.
+<!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-## Future Improvements
+[More Information Needed]
 
-* Improve legal clause extraction and summarization.
-* Expand the legal reference collection.
-* Enhance risk detection and evaluation.
-* Improve the user interface and accessibility.
-* Add more document formats and testing.
+### Recommendations
 
-These are potential improvements and do not necessarily represent completed features.
+<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
 
-## Author
+Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
 
-**Arghya Das**
+## How to Get Started with the Model
 
-B.Tech — Artificial Intelligence and Machine Learning
-Adamas University
+Use the code below to get started with the model.
 
-## Links
+[More Information Needed]
 
-* GitHub: https://github.com/arghya-das15
-* LinkedIn: https://www.linkedin.com/in/arghyadas015
+## Training Details
 
-## Disclaimer
+### Training Data
 
-This project is intended for educational and informational purposes only. AI-generated summaries and risk assessments may be inaccurate or incomplete. The application does not replace advice from a qualified legal professional.
+<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+
+[More Information Needed]
+
+### Training Procedure
+
+<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
+
+#### Preprocessing [optional]
+
+[More Information Needed]
+
+
+#### Training Hyperparameters
+
+- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
+
+#### Speeds, Sizes, Times [optional]
+
+<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
+
+[More Information Needed]
+
+## Evaluation
+
+<!-- This section describes the evaluation protocols and provides the results. -->
+
+### Testing Data, Factors & Metrics
+
+#### Testing Data
+
+<!-- This should link to a Dataset Card if possible. -->
+
+[More Information Needed]
+
+#### Factors
+
+<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+
+[More Information Needed]
+
+#### Metrics
+
+<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+
+[More Information Needed]
+
+### Results
+
+[More Information Needed]
+
+#### Summary
+
+
+
+## Model Examination [optional]
+
+<!-- Relevant interpretability work for the model goes here -->
+
+[More Information Needed]
+
+## Environmental Impact
+
+<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
+
+Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
+
+- **Hardware Type:** [More Information Needed]
+- **Hours used:** [More Information Needed]
+- **Cloud Provider:** [More Information Needed]
+- **Compute Region:** [More Information Needed]
+- **Carbon Emitted:** [More Information Needed]
+
+## Technical Specifications [optional]
+
+### Model Architecture and Objective
+
+[More Information Needed]
+
+### Compute Infrastructure
+
+[More Information Needed]
+
+#### Hardware
+
+[More Information Needed]
+
+#### Software
+
+[More Information Needed]
+
+## Citation [optional]
+
+<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
+
+**BibTeX:**
+
+[More Information Needed]
+
+**APA:**
+
+[More Information Needed]
+
+## Glossary [optional]
+
+<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
+
+[More Information Needed]
+
+## More Information [optional]
+
+[More Information Needed]
+
+## Model Card Authors [optional]
+
+[More Information Needed]
+
+## Model Card Contact
+
+[More Information Needed]
+### Framework versions
+
+- PEFT 0.21.0
