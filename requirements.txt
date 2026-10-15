@@ -1,0 +1,10 @@
+streamlit
+pypdf
+python-docx
+easyocr
+Pillow
+numpy
+llama-cpp-python==0.3.35
+sentence-transformers
+faiss-cpu
+reportlab
