@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+nameenv/
+
+# Secrets
+.env
+.env.*
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Generated files
+reports/
+uploads/
+vector_db/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
